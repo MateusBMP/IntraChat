@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FreeFileSync XmlType="GUI" XmlFormat="14">
+    <Compare>
+        <Variant>TimeAndSize</Variant>
+        <Symlinks>Exclude</Symlinks>
+        <IgnoreTimeShift/>
+    </Compare>
+    <Synchronize>
+        <Variant>TwoWay</Variant>
+        <DetectMovedFiles>false</DetectMovedFiles>
+        <DeletionPolicy>RecycleBin</DeletionPolicy>
+        <VersioningFolder Style="Replace"/>
+    </Synchronize>
+    <Filter>
+        <Include>
+            <Item>*</Item>
+        </Include>
+        <Exclude>
+            <Item>\System Volume Information\</Item>
+            <Item>\$Recycle.Bin\</Item>
+            <Item>\RECYCLE?\</Item>
+            <Item>*\desktop.ini</Item>
+            <Item>*\thumbs.db</Item>
+        </Exclude>
+        <TimeSpan Type="None">0</TimeSpan>
+        <SizeMin Unit="None">0</SizeMin>
+        <SizeMax Unit="None">0</SizeMax>
+    </Filter>
+    <FolderPairs>
+        <Pair>
+            <Left>C:\dev\IntraChat\src</Left>
+            <Right>C:\xampp\htdocs\IntraChat</Right>
+            <Synchronize>
+                <Variant>Custom</Variant>
+                <CustomDirections>
+                    <LeftOnly>right</LeftOnly>
+                    <RightOnly>none</RightOnly>
+                    <LeftNewer>right</LeftNewer>
+                    <RightNewer>none</RightNewer>
+                    <Different>right</Different>
+                    <Conflict>left</Conflict>
+                </CustomDirections>
+                <DetectMovedFiles>false</DetectMovedFiles>
+                <DeletionPolicy>Versioning</DeletionPolicy>
+                <VersioningFolder Style="Replace">C:\dev\IntraChat\backup\public</VersioningFolder>
+            </Synchronize>
+            <Filter>
+                <Include>
+                    <Item>\public\</Item>
+                </Include>
+                <Exclude/>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>C:\dev\IntraChat\src</Left>
+            <Right>C:\xampp\htdocs\IntraChat</Right>
+            <Synchronize>
+                <Variant>Mirror</Variant>
+                <DetectMovedFiles>false</DetectMovedFiles>
+                <DeletionPolicy>Permanent</DeletionPolicy>
+                <VersioningFolder Style="Replace"/>
+            </Synchronize>
+            <Filter>
+                <Include>
+                    <Item>\resources\</Item>
+                </Include>
+                <Exclude/>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+    </FolderPairs>
+    <Errors Ignore="false" Retry="0" Delay="5"/>
+    <LogFolder/>
+    <PostSyncCommand Condition="Completion"/>
+    <Gui>
+        <MiddleGridView>Action</MiddleGridView>
+    </Gui>
+</FreeFileSync>
