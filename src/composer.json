@@ -2,6 +2,7 @@
     "name": "intrachat/intrachat",
     "description": "Chat de texto em PHP",
     "type": "Project",
+    "version": "0.1.0",
     "require-dev" : {
         "phpunit/phpunit": "^6.3"
     },
