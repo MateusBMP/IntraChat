@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO_8859-1" ?>
 
-<phpunit bootstrap="vendor/autoload.php" colors="true" verbose="true" stopOnFailue="false">
+<phpunit bootstrap="vendor/autoload.php" colors="true" verbose="true">
     <testsuites>
         <testsuite name="Unit">
             <directory suffix="_test.php">tests/unit/</directory>
