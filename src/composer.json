@@ -1,5 +1,5 @@
 {
-    "name": "Intra Chat",
+    "name": "intrachat/intrachat",
     "description": "Chat de texto em PHP",
     "type": "Project",
     "require-dev" : {
