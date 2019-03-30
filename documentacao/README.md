@@ -40,3 +40,14 @@ O FreeFileSync facilita o processo de sincronizacao do projeto com suas diferent
 
 - _\\backup\\_ dentro do diretorio do projeto
 - _\\htdocs\\IntraChat\\_ dentro do diretorio do XAMPP
+
+-----
+
+## Documentacao
+
+O projeto possui uma vasta documentacao explicando sua estrutura, funcionalidades e aplicacoes. Para melhor entende-la, eis os arquivos de documentacao presentes:
+
+- **Estrutura**: Explica a estrutura do projeto, descrevendo suas principais pastas e utilidades de cada uma
+- **Modulos**: Apresenta os modulos de uso da aplicacao e suas principais operacoes de forma resumida
+- **README**: Arquivo atual, apresentando a base do projeto, como configura-lo e como executa-lo
+- **Requisitos**: Requisitos minimos e opcionais para o bom funcionamento ou implementacao do projeto
