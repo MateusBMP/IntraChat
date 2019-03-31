@@ -1,5 +1,5 @@
 {
-    "name": "intrachat/intrachat",
+    "name": "mateusbmp/intrachat",
     "description": "Chat de texto em PHP",
     "type": "Project",
     "version": "0.1.0",
@@ -17,6 +17,9 @@
             "email": "ess2@ic.ufal.br"
         }
     ],
+    "config": {
+        "vendor-dir": "src/vendor/"
+    },
     "autoload": {
         "psr-4": {
             "Apteles\\Acme\\": "src/"
@@ -26,6 +29,7 @@
         "phpunit/phpunit": "^8"
     },
     "require": {
+        "mateusbmp/crud": "^1.0",
         "vlucas/phpdotenv": "^3.3"
     }
 }
