@@ -42,7 +42,7 @@ Alguns dos principais arquivos do projeto e suas funcionalidades:
 - **composer.json** - Configuracao do Composer
 - **phpunit.xml** - Configuracao do PHPunit
 - **test.bat** - Executa os testes
-- **.conf** - Configuracao da aplicacao
+- **.env** - Configuracao da aplicacao
 
 Outros arquivos tambem podem surgir, como cache dos testes e arquivos resultantes do Composer.
 
