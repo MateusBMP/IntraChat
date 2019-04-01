@@ -47,6 +47,8 @@ O FreeFileSync facilita o processo de sincronizacao do projeto com suas diferent
 
 O projeto possui uma vasta documentacao explicando sua estrutura, funcionalidades e aplicacoes. Para melhor entende-la, eis os arquivos de documentacao presentes:
 
+- classes/
+  - **Administrador**: Explica as funcoes da classe _Administrador_
 - **Estrutura**: Explica a estrutura do projeto, descrevendo suas principais pastas e utilidades de cada uma
 - **Modulos**: Apresenta os modulos de uso da aplicacao e suas principais operacoes de forma resumida
 - **README**: Arquivo atual, apresentando a base do projeto, como configura-lo e como executa-lo
