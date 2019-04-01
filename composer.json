@@ -1,7 +1,7 @@
 {
     "name": "mateusbmp/intrachat",
     "description": "Chat de texto em PHP",
-    "type": "Project",
+    "type": "library",
     "version": "0.1.0",
     "authors": [
         {
