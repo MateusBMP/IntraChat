@@ -12,7 +12,7 @@ A interface de interacao e um modulo de completa funcionalidade visual, ou seja,
 
 ## Enderecos e pastas
 
-Sempre se baseando a partir pasta raiz do projeto, toda a aplicacao esta presente na pasta _\\src\\_, incluindo tanto os componentes extras, como testes unitarios, como tambem os componentes principais do chat. Esses componentes principais se encontram nos diretorios _\\src\\public\\_ e _\\src\\resources\\_, sendo que, o primeiro gerencia os arquivos temporarios ou gerados pela aplicacao, como o chat, e o segundo possui as classes e arquivos principais do projeto.
+Sempre se baseando a partir da pasta raiz do projeto, toda a aplicacao esta presente na pasta _\\src\\_, incluindo tanto os componentes extras, como testes unitarios, como tambem os componentes principais do chat. Esses componentes principais se encontram nos diretorios _\\src\\public\\_ e _\\src\\resources\\_, sendo que, o primeiro gerencia os arquivos temporarios ou gerados pela aplicacao, como o chat, e o segundo possui as classes e arquivos principais do projeto.
 
 Para melhor entendimento, esta e a estrutura de pastas:
 
