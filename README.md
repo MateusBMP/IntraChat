@@ -18,6 +18,7 @@ A aplicacao foi desenvolvida para funcionar tanto localmente quanto em um servid
 
 - Criar aquivo _.env_ de acordo com arquivo de referencia _.env.example_
 - Configurar arquivo _.env_ de acordo com as necessidades da aplicacao
+- Executar os comandos ``composer update`` e ``composer dump-autoload -o``
 - Importar a classe _Administrador_ e executar a funcao **instalar**
 
 O arquivo _.env_ armazena informacoes essenciais a aplicacao, como parametros de conexao ao banco de dados e tipo de banco usado. Desta forma, esse arquivo nao deve ser incorporado ao corpo do codigo que sera compartilhado, a nao ser que se possua confianca ao transmitir esses dados.
