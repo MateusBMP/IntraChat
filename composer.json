@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Apteles\\Acme\\": "src/"
+            "IntraChat\\": "src/resources/class/"
         }
     },
     "require-dev" : {
