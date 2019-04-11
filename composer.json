@@ -3,7 +3,7 @@
     "description": "Chat de texto em PHP",
     "type": "library",
     "version": "0.1.0",
-    "license": "GLP-3.0",
+    "license": "GLP-3.0-or-later",
     "keywords": [
         "chat"
     ],
